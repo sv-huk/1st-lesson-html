@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Form Sample</title>
+</head>
+
+<body>
+	<header>
+		<h1>Html Form</h1>
+		<nav>
+			<a href="index.html">Index</a>
+		</nav>
+	</header>
+	<br>
+	<main>
+		<form method="POST" action="https://formspree.io/xaynnbed">
+			<label>Name:
+                <input type="text" placeholder="Name" name="name" required>
+            </label>
+			<br>
+			<br>
+			<label>Email:
+                <input type="email" placeholder="Email" name="email" required>
+            <br>
+            <br>
+            <label>Gender:</label>
+			<label>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="other">Other
+            </label>
+			<br>
+			<br>
+			<label>Comments:
+            </label>
+			<label>
+                <textarea name="comments"></textarea>
+            </label>
+			<br>
+			<br>
+			<input type="submit">
+
+        </form>
+	</main>
+
+</body>
+
+</html>
