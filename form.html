@@ -21,66 +21,80 @@
 	<br>
 	<main>
 		<form method="POST" action="https://formspree.io/xaynnbed">
-
-			<label>Cats hate hugs</label>
-			<br>
-			<label>
+			<fieldset>
+				<label>Cats hate hugs</label>
+				<br>
+				<label>
 			<input type="radio" name="Cats hate hugs" value="true">True
             </label>
-			<label>
+				<label>
 			<input type="radio" name="Cats hate hugs" value="false">False
             </label>
 
-			<br>
-			<br>
-			<label>Cats like cookies</label>
-			<br>
-			<label>
+				<br>
+				<br>
+				<label>Cats like cookies</label>
+				<br>
+				<label>
 			<input type="radio" name="Cats like cookies" value="true">True
             </label>
-			<label>
+				<label>
             <input type="radio" name="Cats like cookies" value="false">False
             </label>
-			<br>
-			<br>
-			<label>Cats have voices in their heads</label>
-			<br>
-			<label>
+				<br>
+				<br>
+				<label>Cats have voices in their heads</label>
+				<br>
+				<label>
 			<input type="radio" name="Cats have voices in their heads" value="true">True
 			</label>
-			<label>
+				<label>
             <input type="radio" name="Cats have voices in their heads" value="false">False
             </label>
-			<h4>Please enter your <i>Name</i> and <i>Email</i></h4>
-			<label>Name:
+				<h4>Please enter your <i>Name</i> and <i>Email</i></h4>
+				<label>Name:
 			<input type="text" placeholder="Name" name="name" required>
 			</label>
-			<br>
-			<br>
-			<label>Email:
+				<br>
+				<br>
+				<label>Email:
 			<input type="email" placeholder="Email" name="email" required>
             </label>
-			<br>
-			<br>
-			<label>How old are You?
-			<input type="number" placeholder="Age" name="age" required>
+				<br>
+				<br>
+				<label>How old are You?
+			<input type="number" placeholder="Age" name="age" min="0" max="110" required>
             </label>
-			<br>
-			<br>
-			<label>Please tell us about your favourite types of <b>Cats</b>
+				<br>
+                <br>
+                <label>Gender:
+			<select name="Gender">
+             <option value="Male">Male</option>
+             <option value="Female">Female</option>
+             <option value="Other">Other</option>
+            </select>
+            </label>
             <br>
+				<br>
+				<label>I'm a cat
+            <input type="checkbox" name="I'm a cat">
+            </label>
+				<br>
+				<br>
+				<label>Please tell us about your favourite types of <b>Cats</b>
             <br>
                 <textarea rows="4" cols="40" name="comments"></textarea>
             </label>
-			<br>
-			<br>
-			<input type="submit">
-        </form>
+				<br>
+				<br>
+				<input type="submit">
+			</fieldset>
+		</form>
 	</main>
 	<h2>Good Job! </h2>
 	<img src="img/cat-stroked-bottom.jpg" alt="cat being stroked" >
 	<br>
-    <br>
+	<br>
 	<nav>
 		<a href="index.html">Back to CATLAND</a>
 	</nav>
